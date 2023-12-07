@@ -27,23 +27,23 @@ or
 
 ```bash
 # Clone the repository
-git clone https://github.com/stphnwlsh/ConveryorBelt.git
+git clone https://github.com/stphnwlsh/ConveyorBelt.git
 
 # Navigate to the project directory
-cd ConveryorBelt
+cd ConveyorBelt
 
 # Build the project
-docker build . -t converyorbelt
+docker build . -t conveyorbelt
 ```
 
 ### .NET Instructions
 
 ```bash
 # Clone the repository
-git clone https://github.com/stphnwlsh/ConveryorBelt.git
+git clone https://github.com/stphnwlsh/ConveyorBelt.git
 
 # Navigate to the project directory
-cd ConveryorBelt
+cd ConveyorBelt
 
 # Build the project
 dotnet build
@@ -55,7 +55,7 @@ dotnet build
 
 ```bash
 # Run the application with default settings
-docker run converyorbelt
+docker run conveyorbelt
 ```
 
 ### .NET Instructions

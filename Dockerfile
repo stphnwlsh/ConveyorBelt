@@ -21,8 +21,8 @@ FROM mcr.microsoft.com/dotnet/runtime:8.0-alpine AS run
 WORKDIR /app
 
 # Copy the Published Application
-COPY --from=build /app/out/ConveryorBelt.dll .
-COPY --from=build /app/out/ConveryorBelt.runtimeconfig.json .
+COPY --from=build /app/out/ConveyorBelt.dll .
+COPY --from=build /app/out/ConveyorBelt.runtimeconfig.json .
 
 # Set the entry point for the application
-ENTRYPOINT ["dotnet", "ConveryorBelt.dll"]
+ENTRYPOINT ["dotnet", "ConveyorBelt.dll"]
